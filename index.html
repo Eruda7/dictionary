@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="css/style.css" />
+		<title>Dictionary</title>
+	</head>
+	<body>
+		<div class="container">
+			<form>
+				<h1>Добавление слов</h1>
+				<input type="text" placeholder="English word" id="engWord" />
+				<input type="text" placeholder="Russian word" id="rusWord" />
+				<button id="addBtn">Add words</button>
+			</form>
+
+			<button id="testBtn">Test</button>
+			<div class="testModal">
+				<h2></h2>
+				<input type="text" id="answer" />
+				<button id="check">Check</button>
+				<button id="cancel">Cancel</button>
+				<strong id="points">0 / 5</strong>
+			</div>
+		</div>
+
+		<script src="js/js.js"></script>
+	</body>
+</html>
